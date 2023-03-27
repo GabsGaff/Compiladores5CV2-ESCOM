@@ -28,6 +28,7 @@ public class Scanner {
     static {
         palabrasReservadas = new HashMap<>();
         palabrasReservadas.put("y", TipoToken.Y);
+<<<<<<< Updated upstream
         palabrasReservadas.put("clase", TipoToken.CLASE);
         /*palabrasReservadas.put("ademas", );
         palabrasReservadas.put("falso", );
@@ -43,6 +44,44 @@ public class Scanner {
         palabrasReservadas.put("verdadero", );
         palabrasReservadas.put("var", ); //definir variables
         palabrasReservadas.put("mientras", );*/
+=======
+        palabrasReservadas.put("clase", TipoToken.CLASS);
+        palabrasReservadas.put("falso", TipoToken.FALSE);
+        palabrasReservadas.put("para", TipoToken.FOR);
+        palabrasReservadas.put("fun", TipoToken.FUN);
+        palabrasReservadas.put("si", TipoToken.SI);
+        palabrasReservadas.put("nulo", TipoToken.NULL);
+        palabrasReservadas.put("o", TipoToken.O);
+        palabrasReservadas.put("imprimir", TipoToken.PRINT);
+        palabrasReservadas.put("retornar", TipoToken.RETURN);
+        palabrasReservadas.put("super", TipoToken.SUPER);
+        palabrasReservadas.put("este", TipoToken.THIS);
+        palabrasReservadas.put("verdadero", TipoToken.TRUE);
+        palabrasReservadas.put("var", TipoToken.VAR);
+        palabrasReservadas.put("mientras", TipoToken.WHILE);
+        palabrasReservadas.put("entonces", TipoToken.IF);
+        palabrasReservadas.put("entero", TipoToken.INT);
+        palabrasReservadas.put("cadena", TipoToken.STRING);
+        palabrasReservadas.put("abstracto", TipoToken.ABSTRACT);
+        palabrasReservadas.put("booleano", TipoToken.BOOLEAN);
+        palabrasReservadas.put("byte", TipoToken.BYTE);
+        palabrasReservadas.put("char", TipoToken.CHAR);
+        palabrasReservadas.put("doble", TipoToken.DOUBLE);
+        palabrasReservadas.put("flotante", TipoToken.FLOAT);
+        palabrasReservadas.put("intero", TipoToken.INT);
+        palabrasReservadas.put("largo", TipoToken.LONG);
+        palabrasReservadas.put("corto", TipoToken.SHORT);
+        palabrasReservadas.put("afirmar",TipoToken.ASSERT);
+        palabrasReservadas.put("romper",TipoToken.BREAK)
+        palabrasReservadas.put("caso",TipoToken.CASE);
+        
+
+
+        /* ABSTRACT, ASSERT, BOOLEAN, BREAK, BYTE, CASE, CATCH, CHAR, CLASS, CONST, CONTINUE, DEFAULT, DO, DOUBLE,
+    ELSE, ENUM, EXTENDS, FINAL, FINALLY, FLOAT, FOR, GOTO, IF, IMPLEMENTS, IMPORT, INSTANCEOF, INT, INTERFACE, 
+    LONG, NATIVE, NEW, PACKAGE, PRIVATE, PROTECTED, PUBLIC, RETURN, SHORT, STATIC, STRICTFP, SUPER, SWITCH, SYNCHRONIZED, 
+    THIS, THROW, THROWS, TRANSIENT, TRY, VOID, VOLATILE, WHILE, WITH, YIELD, VAR,*/
+>>>>>>> Stashed changes
     }
 
     Scanner(String source){
