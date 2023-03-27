@@ -67,16 +67,32 @@ public class Scanner {
         palabrasReservadas.put("extiende", TipoToken.EXTENDS);
         palabrasReservadas.put("final", TipoToken.FINAL);
         palabrasReservadas.put("finalmente", TipoToken.FINALLY);
-        palabrasReservadas.put("goto", TipoToken.GOTO);
-        palabrasReservadas.put("implementos", TipoToken.IMPLENT)
+        palabrasReservadas.put("vete a", TipoToken.GOTO);
+        palabrasReservadas.put("implementa", TipoToken.IMPLENTS);
+        palabrasReservadas.put("importar", TipoToken.IMPORT);
+        palabrasReservadas.put("instancia de", TipoToken.INSTANCEOF);
+        palabrasReservadas.put("interfaz", TipoToken.INTERFACE);
+        palabrasReservadas.put("nativo", TipoToken.NATIVE);
+        palabrasReservadas.put("nuevo", TipoToken.NEW);
+        palabrasReservadas.put("paquete", TipoToken.PACKAGE);
+        palabrasReservadas.put("privado", TipoToken.PRIVATE);
+        palabrasReservadas.put("protegido", TipoToken.PROTECTED);
+        palabrasReservadas.put("publico", TipoToken.PUBLIC);
+        palabrasReservadas.put("regresar", TipoToken.RETURN);
+        palabrasReservadas.put("estatico", TipoToken.STATIC);
+        palabrasReservadas.put("strictfp", TipoToken.STRITFP);
+        palabrasReservadas.put("super", TipoToken.SUPER);
+        palabrasReservadas.put("interrruptor", TipoToken.SWITCH);
+        palabrasReservadas.put("este", TipoToken.THIS);
+        palabrasReservadas.put("tirar", TipoToken.THROW);
+        palabrasReservadas.put("lanza", TipoToken.THROWS);
+        PalabrasReservadas.put("probar",TipoToken.TRY);
+        palabrasReservadas.put("volatil", TipoToken.VOLATILE);
+        palabrasReservadas.put("con", TipoToken.WITH);
+        palabrasReservadas.put("rendimiento", TipoToken.YIELD);
 
 
-
-
-
-        /* FOR, GOTO, IF, IMPLEMENTS, IMPORT, INSTANCEOF, INT, INTERFACE, 
-    LONG, NATIVE, NEW, PACKAGE, PRIVATE, PROTECTED, PUBLIC, RETURN, SHORT, STATIC, STRICTFP, SUPER, SWITCH, SYNCHRONIZED, 
-    THIS, THROW, THROWS, TRANSIENT, TRY, VOID, VOLATILE, WHILE, WITH, YIELD, VAR,*/
+        /*  TRANSIENT,*/
     }
 
     Scanner(String source){
