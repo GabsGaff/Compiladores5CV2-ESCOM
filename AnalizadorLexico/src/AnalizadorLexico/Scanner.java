@@ -28,23 +28,6 @@ public class Scanner {
     static {
         palabrasReservadas = new HashMap<>();
         palabrasReservadas.put("y", TipoToken.Y);
-<<<<<<< Updated upstream
-        palabrasReservadas.put("clase", TipoToken.CLASE);
-        /*palabrasReservadas.put("ademas", );
-        palabrasReservadas.put("falso", );
-        palabrasReservadas.put("para", );
-        palabrasReservadas.put("fun", ); //definir funciones
-        palabrasReservadas.put("si", );
-        palabrasReservadas.put("nulo", );
-        palabrasReservadas.put("o", );
-        palabrasReservadas.put("imprimir", );
-        palabrasReservadas.put("retornar", );
-        palabrasReservadas.put("super", );
-        palabrasReservadas.put("este", );
-        palabrasReservadas.put("verdadero", );
-        palabrasReservadas.put("var", ); //definir variables
-        palabrasReservadas.put("mientras", );*/
-=======
         palabrasReservadas.put("clase", TipoToken.CLASS);
         palabrasReservadas.put("falso", TipoToken.FALSE);
         palabrasReservadas.put("para", TipoToken.FOR);
@@ -71,17 +54,29 @@ public class Scanner {
         palabrasReservadas.put("intero", TipoToken.INT);
         palabrasReservadas.put("largo", TipoToken.LONG);
         palabrasReservadas.put("corto", TipoToken.SHORT);
-        palabrasReservadas.put("afirmar",TipoToken.ASSERT);
-        palabrasReservadas.put("romper",TipoToken.BREAK)
-        palabrasReservadas.put("caso",TipoToken.CASE);
-        
+        palabrasReservadas.put("afirmar", TipoToken.ASSERT);
+        palabrasReservadas.put("romper", TipoToken.BREAK)
+        palabrasReservadas.put("caso", TipoToken.CASE);
+        palabrasReservadas.put("atrapar", TipoToken.CATCH);
+        palabrasReservadas.put("const", TipoToken.CONTS);
+        palabrasReservadas.put("continuar", TipoToken.CONTINUE);
+        palabrasReservadas.put("predeterminado", TipoToken.DEFAULT);
+        palabrasReservadas.put("hacer", TipoToken.DO);
+        palabrasReservadas.put("otra cosa", TipoToken.ELSE);
+        palabrasReservadas.put("enumeración", TipoToken.ENUM);
+        palabrasReservadas.put("extiende", TipoToken.EXTENDS);
+        palabrasReservadas.put("final", TipoToken.FINAL);
+        palabrasReservadas.put("finalmente", TipoToken.FINALLY);
+        palabrasReservadas.put("goto", TipoToken.GOTO);
+        palabrasReservadas.put("implementos", TipoToken.IMPLENT)
 
 
-        /* ABSTRACT, ASSERT, BOOLEAN, BREAK, BYTE, CASE, CATCH, CHAR, CLASS, CONST, CONTINUE, DEFAULT, DO, DOUBLE,
-    ELSE, ENUM, EXTENDS, FINAL, FINALLY, FLOAT, FOR, GOTO, IF, IMPLEMENTS, IMPORT, INSTANCEOF, INT, INTERFACE, 
+
+
+
+        /* FOR, GOTO, IF, IMPLEMENTS, IMPORT, INSTANCEOF, INT, INTERFACE, 
     LONG, NATIVE, NEW, PACKAGE, PRIVATE, PROTECTED, PUBLIC, RETURN, SHORT, STATIC, STRICTFP, SUPER, SWITCH, SYNCHRONIZED, 
     THIS, THROW, THROWS, TRANSIENT, TRY, VOID, VOLATILE, WHILE, WITH, YIELD, VAR,*/
->>>>>>> Stashed changes
     }
 
     Scanner(String source){
