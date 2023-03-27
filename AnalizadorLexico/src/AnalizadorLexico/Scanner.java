@@ -28,7 +28,26 @@ public class Scanner {
     static {
         palabrasReservadas = new HashMap<>();
         palabrasReservadas.put("y", TipoToken.Y);
-        palabrasReservadas.put("clase", TipoToken.CLASE);
+        palabrasReservadas.put("clase", TipoToken.CLASS);
+        palabrasReservadas.put("ademas", tipoToken.ADEMAS)
+        palabrasReservadas.put("falso", TipoToken.FALSE);
+        palabrasReservadas.put("para", TipoToken.FOR);
+        palabrasReservadas.put("fun", TipoToken.FUN);
+        palabrasReservadas.put("si", TipoToken.SI);
+        palabrasReservadas.put("nulo", TipoToken.NULL);
+        palabrasReservadas.put("o", TipoToken.O);
+        palabrasReservadas.put("imprimir", TipoToken.PRINT);
+        palabrasReservadas.put("retornar", TipoToken.RETURN);
+        palabrasReservadas.put("super", TipoToken.SUPER);
+        palabrasReservadas.put("este", TipoToken.THIS);
+        palabrasReservadas.put("verdadero", TipoToken.TRUE);
+        palabrasReservadas.put("var", TipoToken.VAR);
+        palabrasReservadas.put("mientras", TipoToken.WHILE);
+        palabrasReservadas.put("entonces", TipoToken.IF);
+        palabrasReservadas.put("entero", TipoToken.INT);
+        palabrasReservadas.put("cadena", TipoToken.STRING);
+
+
         /*palabrasReservadas.put("ademas", );
         palabrasReservadas.put("falso", );
         palabrasReservadas.put("para", );
